@@ -1,0 +1,28 @@
+.pokemon-card {
+    display: flex;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
+    border-radius: 5px;
+
+}
+.pokemon-img-container {
+    padding: 0 5px;
+}
+.pokemon-img {
+    width: 100px;
+    height: 100px;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 0px 10px 10px;
+    flex: 1;
+}
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-top h3 {
+    text-transform: capitalize;
+}
