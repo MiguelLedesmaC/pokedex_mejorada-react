@@ -2,23 +2,34 @@
     display: flex;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
     border-radius: 5px;
-
+}
+.pokemon-card:hover{
+    background-color: rgb(243, 237, 237);
 }
 .pokemon-img-container {
     padding: 0 5px;
+    
 }
 .pokemon-img {
     width: 100px;
     height: 100px;
 }
+.pokemon-type {
+    display: flex;
+    gap: 20px;
+}
+.pokemon-type-text {
+    text-transform: capitalize;
+}
 .card-body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 10px 0px 10px 10px;
+    padding: 10px;
     flex: 1;
 }
-.card-top {
+.card-top,
+.card-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,3 +37,9 @@
 .card-top h3 {
     text-transform: capitalize;
 }
+.pokemon-favorite{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
