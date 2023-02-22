@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokedex_mejorada-react/static/css/main.4c652de8.css",
+    "main.js": "/pokedex_mejorada-react/static/js/main.3d498681.js",
+    "index.html": "/pokedex_mejorada-react/index.html",
+    "main.4c652de8.css.map": "/pokedex_mejorada-react/static/css/main.4c652de8.css.map",
+    "main.3d498681.js.map": "/pokedex_mejorada-react/static/js/main.3d498681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c652de8.css",
+    "static/js/main.3d498681.js"
+  ]
+}
